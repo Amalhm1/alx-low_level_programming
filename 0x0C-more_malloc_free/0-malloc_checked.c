@@ -7,6 +7,7 @@
  *
  * Return: a pointer to the allocated memory
  */
+int main;
 void *malloc_checked(unsigned int b)
 {
 	void *ptr;
