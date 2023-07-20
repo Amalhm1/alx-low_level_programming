@@ -19,12 +19,3 @@ sum += va_arg(ap, int);
 va_end(ap);
 return (sum);
 }
-int main(void)
-{
-int sum1 = sum_them_all(3, 10, 20, 30);
-int sum2 = sum_them_all(5, 1, 2, 3, 4, 5);
-
-printf("Sum 1: %d\n", sum1);
-printf("Sum 2: %d\n", sum2);
-return (0);
-}
